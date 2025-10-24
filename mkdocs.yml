@@ -1,0 +1,86 @@
+site_name: AnxiousDevloper
+site_description: A blog and portfolio site
+site_author: AnxiousDevloper
+site_url: https://codess-aus.github.io/AnxiousDevloper/
+
+theme:
+  name: material
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  icon:
+    repo: fontawesome/brands/github
+
+repo_url: https://github.com/codess-aus/AnxiousDevloper
+repo_name: codess-aus/AnxiousDevloper
+
+nav:
+  - Home: index.md
+  - Blogs: blogs.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra:
+  social:
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com/@yourusername
+      name: YouTube
+    - icon: fontawesome/brands/tiktok
+      link: https://tiktok.com/@yourusername
+      name: TikTok
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/yourprofile
+      name: LinkedIn
+    - icon: fontawesome/brands/bluesky
+      link: https://bsky.app/profile/yourhandle
+      name: BlueSky
+    - icon: fontawesome/solid/lemon
+      link: https://lemon8-app.com/yourusername
+      name: Lemon8
+
+plugins:
+  - search
+
+copyright: Copyright &copy; 2024 AnxiousDevloper
