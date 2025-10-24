@@ -20,8 +20,9 @@ Hi there! I'm AnxiousDevloper, a developer sharing my journey through code, crea
 Here are some of my recent YouTube videos:
 
 <div class="video-container">
-  <!-- Replace with your actual YouTube video IDs -->
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <!-- TODO: Replace 'VIDEO_ID_HERE' with your actual YouTube video ID from your video URL -->
+  <!-- Example: If your video URL is https://www.youtube.com/watch?v=ABC123xyz, use ABC123xyz -->
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_HERE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 !!! tip "More Videos"
