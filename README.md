@@ -45,7 +45,11 @@ pip install -r backend/requirements.txt
 
 3. Run the Flask backend:
 ```bash
+# Development mode (default, debug off for security)
 python backend/app.py
+
+# Enable debug mode for development (use with caution)
+FLASK_DEBUG=true python backend/app.py
 ```
 
 4. Open your browser and navigate to:
