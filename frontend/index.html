@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AnxiousDevloper - A blog about web development, programming, and technology">
+    <title>AnxiousDevloper | Web Development Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <header role="banner">
+        <div class="container">
+            <h1 class="logo">AnxiousDevloper</h1>
+            <nav role="navigation" aria-label="Main navigation">
+                <ul class="nav-links">
+                    <li><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+                    <li><a href="#" class="nav-link">About</a></li>
+                    <li><a href="#" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content" role="main">
+        <section class="hero">
+            <div class="container">
+                <h2 class="hero-title">Welcome to My Tech Blog</h2>
+                <p class="hero-subtitle">Exploring web development, programming, and technology</p>
+            </div>
+        </section>
+
+        <section class="blog-posts" aria-label="Blog posts">
+            <div class="container">
+                <h2 class="section-title">Latest Posts</h2>
+                <div id="posts-container" class="posts-grid" role="list">
+                    <!-- Blog posts will be loaded here by JavaScript -->
+                    <div class="loading" aria-live="polite" aria-busy="true">
+                        <div class="spinner"></div>
+                        <p>Loading posts...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <div class="container">
+            <p>&copy; 2025 AnxiousDevloper. All rights reserved.</p>
+            <p>Built with Python Flask & Modern JavaScript</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
